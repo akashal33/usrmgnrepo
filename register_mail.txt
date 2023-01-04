@@ -1,0 +1,8 @@
+Hello, ${firstname} ${lastname} <br/><br/>
+	<p> Welcome to our app . <br/>
+		your account password is ${password}.<br/>
+		your account is not active. please click on below  link to active your account. 
+	
+	 </p>
+	 <br/> <br/>
+	 <a href="http://localhost:4200/active?email=${temppassword}"> click here to active account </a>
