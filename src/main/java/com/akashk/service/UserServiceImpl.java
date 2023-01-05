@@ -245,7 +245,7 @@ public class UserServiceImpl implements UserService {
 		
 		StringBuilder builder = new StringBuilder();
 		
-		//String path = "C:\\Users\\sneha\\Documents\\angularminiproj\\usermanagment-3\\src\\main\\resources\\"+fileName;
+		
 		
 		try ( Stream <String> fileLines =   Files.lines(Paths.get(fileName))){
 			
